@@ -42,17 +42,17 @@ def add_column5(dataframe,newcol):
     return dataframe
 
 
-#def add_column2(dataframe,newcol):
-#    """
-#    Adds a new column of NaNs called newcol
-#    :params: a dataframe and column name
-#    :return: a dataframe with a new column
-#    """
-#    # Set up logging
-#    logger = logging.getLogger(__name__)
-#    logger.info('Adding a column...')
-#    dataframe[newcol] = np.nan
-#    return dataframe
+def add_column2(dataframe,newcol):
+    """
+    Adds a new column of NaNs called newcol
+    :params: a dataframe and column name
+    :return: a dataframe with a new column
+    """
+    # Set up logging
+    logger = logging.getLogger(__name__)
+    logger.info('Adding a column...')
+    dataframe[newcol] = np.nan
+    return dataframe
 
 
 def clean_data2(dataframe,colname):
